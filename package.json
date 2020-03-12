@@ -4,7 +4,7 @@
 	"description": "Assets for dungeon-together",
 	"scripts": {
 		"build": "npm run build:img",
-		"build:img": "mkdirp build && ncp src/img/dungeontileset-ii/v1.3/tiles build/dungeontileset-ii",
+		"build:img": "mkdirp build/img && ncp src/img/dungeontileset-ii/v1.3/tiles build/img/dungeontileset-ii",
 		"install": "npm run build"
 	},
 	"repository": {
