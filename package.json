@@ -1,0 +1,28 @@
+{
+  "name": "dungeon-together-assets",
+  "description": "Assets for dungeon-together",
+  "scripts": {
+    "build": "npm run build:img",
+    "build:img": "ncp src/img/dungeontileset-ii/v1.3/tiles build/dungeontileset-ii",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpuabuse/dungeon-together-assets.git"
+  },
+  "keywords": [
+    "assets",
+    "game",
+    "dungeon"
+  ],
+  "author": "cpuabuse.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpuabuse/dungeon-together-assets/issues"
+  },
+  "homepage": "https://github.com/cpuabuse/dungeon-together-assets#readme",
+  "private": true,
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}
