@@ -3,8 +3,9 @@
 	"version": "1.0.0",
 	"description": "Assets for dungeon-together",
 	"scripts": {
-		"build": "npm run build:img",
+		"build": "npm run build:img & npm run build:sound",
 		"build:img": "mkdirp build/img && ncp src/img/dungeontileset-ii/v1.3/tiles build/img/dungeontileset-ii",
+		"build:sound": "mkdirp build/sound && ncp src/sound/boxcat-games-nameless build/sound/boxcat-games-nameless",
 		"install": "npm run build"
 	},
 	"repository": {
