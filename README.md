@@ -3,3 +3,13 @@
 # dungeon-together-assets
 
 Assets for dungeon-together
+
+## Folder structure
+
+```bash
+dungeon-together-assets
+└───src
+    ├───img # Open source artwork
+    ├───img-mod # Modified/original artwork
+    └───sound # Open source music/sounds
+```
