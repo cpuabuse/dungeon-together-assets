@@ -1,0 +1,12 @@
+GIMP Palette
+Name: centaur
+Columns: 1
+#
+116  96  86	skin_dark
+134 119 113	skin_medium
+164 147 138	skin_light
+ 87  78  73	skin_chest
+ 23  24  27	hair
+ 59  57  55	horse_dark
+ 93  90  87	horse_medium
+184 180 178	horse_light

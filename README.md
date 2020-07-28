@@ -13,3 +13,7 @@ dungeon-together-assets
     ├───img-mod # Modified/original artwork
     └───sound # Open source music/sounds
 ```
+
+## Sprite resolution
+
+Any resolution goes, but the preferred is `64x64`.
