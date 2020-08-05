@@ -14,6 +14,12 @@ dungeon-together-assets
     └───sound # Open source music/sounds
 ```
 
-## Sprite resolution
+## Sprites
+
+### Resolution
 
 Any resolution goes, but the preferred is `64x64`.
+
+### Position
+
+Ideally there should not be margins within image.
