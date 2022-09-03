@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "npm run build:img & npm run build:sound",
 		"build:img": "mkdirp build/img && ncp src/img/dungeontileset-ii/v1.3/tiles build/img/dungeontileset-ii && ncp src/img/rltiles build/img/rltiles",
-		"build:sound": "mkdirp build/sound && ncp src/sound/boxcat-games-nameless build/sound/boxcat-games-nameless",
+		"build:sound": "mkdirp build/sound && ncp src/sound/amaranta-music build/sound/amaranta-music && ncp src/sound/boxcat-games-nameless build/sound/boxcat-games-nameless && ncp src/sound/lexin-music build/sound/lexin-music && ncp src/sound/effects build/sound/effects",
 		"install": "npm run build"
 	},
 	"repository": {
